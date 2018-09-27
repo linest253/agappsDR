@@ -1,0 +1,17 @@
+# Start of AGAPPS file systems
+#
+/dev/vx/dsk/agappsvg/agappsrootlv /dev/vx/rdsk/agappsvg/agappsrootlv /zones/agapps vxfs 0 yes suid
+/dev/vx/dsk/system/home /dev/vx/rdsk/system/home        /agapps_mnts/export/home ufs 1 yes logging
+/dev/vx/dsk/system/appl /dev/vx/rdsk/system/appl        /agapps_mnts/appl ufs 1 yes logging
+/dev/vx/dsk/system/track /dev/vx/rdsk/system/track /agapps_mnts/track vxfs 1 yes suid
+/dev/vx/dsk/system/maestro /dev/vx/rdsk/system/maestro /agapps_mnts/maestro ufs 3 yes       logging
+/dev/vx/dsk/vistadg/workspace2vol1      /dev/vx/rdsk/vistadg/workspace2vol1     /agapps_mnts/workspace2     ufs     3       yes     logging
+/dev/vx/dsk/rewardsdg/workspace3vol     /dev/vx/rdsk/rewardsdg/workspace3vol    /agapps_mnts/workspace3     ufs     3       yes     logging
+/dev/vx/dsk/vistadg/brio-ufs    /dev/vx/rdsk/vistadg/brio-ufs   /agapps_mnts/opt/brio       ufs     3       yes     logging
+/dev/vx/dsk/rewardsdg/hrms75    /dev/vx/rdsk/rewardsdg/hrms75   /agapps_mnts/appl/hrms75    ufs     3       yes     logging
+/dev/vx/dsk/rewardsdg/docvol1   /dev/vx/rdsk/rewardsdg/docvol1  /agapps_mnts/docs   ufs     3       yes     logging
+/dev/vx/dsk/system/hugetmp      /dev/vx/rdsk/system/hugetmp     /agapps_mnts/hugetmp        ufs     1       yes     logging
+/dev/vx/dsk/system/dbunload /dev/vx/rdsk/system/dbunload /agapps_mnts/dbunload vxfs 2 yes suid
+/dev/vx/dsk/rewardsdg/oracle /dev/vx/rdsk/rewardsdg/oracle /agapps_mnts/oracle vxfs 2 yes suid
+#
+# End of AGAPPS file systems
